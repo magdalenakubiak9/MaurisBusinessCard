@@ -49,7 +49,7 @@
         android:layout_below="@id/linear_layout_1">
 
         <ImageView
-            android:src="@drawable/ndia"
+            android:src="@drawable/plaszczka"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"/>
