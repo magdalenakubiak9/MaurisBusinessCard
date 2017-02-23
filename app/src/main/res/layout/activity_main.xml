@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.android.maurisbusinesscard.MainActivity">
@@ -44,23 +45,71 @@
     </LinearLayout>
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/linear_layout_1">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative_layout_1">
 
         <ImageView
             android:src="@drawable/plaszczka"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitStart"
+            android:layout_alignParentTop="true"
+            android:id="@+id/plaszczka_image"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"/>
+            android:layout_centerHorizontal="true"
+            android:textSize="25sp"
+            android:padding="15dp"
+            android:textColor="@android:color/white"
+            android:text="Find your adventure!"
+            android:id="@+id/adventure_text" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:padding="15dp"
-            android:text="Find your adventure!"/>
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:textColorLink="@android:color/black"
+            android:layout_below="@id/plaszczka_image"
+            android:layout_alignParentLeft="true"
+            android:text="Visit our website: www.mauris.com"
+            android:id="@+id/website_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:textColorLink="@android:color/black"
+            android:layout_below="@id/website_text"
+            android:text="Call us: +48 505 222 000"
+            android:id="@+id/phone_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:textColorLink="@android:color/black"
+            android:layout_below="@id/phone_text"
+            android:text="ul. Poniatowskiego 12, 55-112 Wrocław" />
 
     </RelativeLayout>
 
-</RelativeLayout>
+</LinearLayout>
