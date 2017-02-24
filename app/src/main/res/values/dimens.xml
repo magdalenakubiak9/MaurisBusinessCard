@@ -5,5 +5,6 @@
     <dimen name="my_padding">15dp</dimen>
     <dimen name="my_padding_small">10dp</dimen>
     <dimen name="my_text_size">20sp</dimen>
+    <dimen name="small_text_size">18sp</dimen>
     <dimen name="my_text_size_banner">25sp</dimen>
 </resources>
