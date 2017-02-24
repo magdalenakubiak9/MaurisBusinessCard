@@ -3,7 +3,7 @@
     <string name="mauris">MAURIS</string>
     <string name="kingdom">THE KINGDOM OF ADVENTURE</string>
     <string name="adventure">Find your adventure!</string>
-    <string name="website">Visit our website: www.mauris.com</string>
-    <string name="phone">Call us: +48 505 222 000</string>
+    <string name="website">www.mauris.com</string>
+    <string name="phone">+48 505 222 000</string>
     <string name="address">ul. Poniatowskiego 12, 55-112 Wrocław</string>
 </resources>

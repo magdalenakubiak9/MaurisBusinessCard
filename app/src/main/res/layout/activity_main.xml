@@ -101,7 +101,6 @@
             android:gravity="center"
             android:fontFamily="sans-serif-medium"
             android:textColorLink="@android:color/black"
-            android:layout_alignParentLeft="true"
             android:text="@string/website"
             android:id="@+id/website_text"
             android:layout_weight="1" />
@@ -115,8 +114,6 @@
         android:layout_height="50dp"
         android:orientation="horizontal"
         android:background="@android:color/white"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="0dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linear_layout_2">
@@ -133,7 +130,7 @@
             android:layout_height="wrap_content"
             android:textSize="@dimen/small_text_size"
             android:padding="@dimen/my_padding_small"
-            android:gravity="left"
+            android:gravity="center"
             android:fontFamily="sans-serif-medium"
             android:textColorLink="@android:color/black"
             android:layout_below="@id/website_text"
@@ -146,11 +143,9 @@
     <LinearLayout
         android:id="@+id/linear_layout_4"
         android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_height="70dp"
         android:orientation="horizontal"
         android:background="@android:color/white"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="0dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linear_layout_3">
@@ -158,7 +153,7 @@
         <ImageView
             android:src="@drawable/address_icon1"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="50dp"
             android:adjustViewBounds="true"
             android:layout_weight="0" />
 
